@@ -15,7 +15,7 @@ Determine the geographical location of website visitors based on their IP addres
 To get the latest version of GeoIP simply require it in your `composer.json` file.
 
 ~~~
-"furey-imagination/laravel4-geoip": "0.1.*@dev"
+"furey-imagination/laravel4-geoip": "0.1.*"
 ~~~
 
 You'll then need to run `composer install` to download it and have the autoloader updated.
