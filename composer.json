@@ -1,14 +1,8 @@
 {
-    "name": "torann/geoip",
-    "description": "Supports the two main GeoIP services (infoDB and Maxmind).",
+    "name": "furey-imagination/laravel4-geoip",
+    "description": "Determine the geographical location of website visitors based on their IP address.",
     "keywords": ["laravel", "laravel4", "geoip", "location", "geolocation"],
 	"license": "BSD 2-Clause",
-    "authors": [
-        {
-            "name": "Daniel Stainback",
-            "email": "daniel@lyften.com"
-        }
-    ],
     "require": {
         "php": ">=5.3.0",
         "illuminate/support": "~4.1",
