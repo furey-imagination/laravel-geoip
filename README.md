@@ -43,7 +43,7 @@ GeoIP also ships with a facade which provides the static syntax for creating col
 Create configuration file using artisan
 
 ~~~
-$ php artisan config:publish torann/geoip
+$ php artisan config:publish furey-imagination/laravel4-geoip
 ~~~
 
 ## Usage
