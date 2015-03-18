@@ -83,7 +83,7 @@ class GeoIP {
     {
         $this->config  = $config;
         $this->session = $session;
-
+        
         $this->remote_ip = $this->default_location['ip'] = $this->getClientIP();
     }
 
@@ -103,7 +103,7 @@ class GeoIP {
      * @param  string $ip Optional
      * @return array
      */
-    function getLocation($ip = null )
+    function getLocation($ip = null)
     {
         // Get location data
         $this->location = $this->find($ip);
@@ -202,6 +202,10 @@ class GeoIP {
             "continent"     => $record->continent->code,
             "default"       => false
         );
+
+        if (isset($name)) {
+            $location['db'] = $name;
+        }
 
         unset($record);
 
